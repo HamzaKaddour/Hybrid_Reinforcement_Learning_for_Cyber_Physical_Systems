@@ -12,7 +12,7 @@
 
 ---
 
-## ⚡ Project Highlights
+##  Project Highlights
 
 - Evaluated three Deep Reinforcement Learning agents for CPS intrusion detection: **A3C**, **Adv PPO**, and **Dueling DQN**
 - Benchmarked performance on both **network-layer** and **physical-layer** data from the **Water Distribution Testbed (WDT)** dataset
@@ -34,7 +34,7 @@ Motivated by this, we design a **domain-aware dual-branch Dueling DQN**, which u
 
 ---
 
-## 🚀 Key Contributions
+## Key Contributions
 
 - Comparative evaluation of **A3C**, **Adv PPO**, and **Dueling DQN** for CPS intrusion detection
 - Analysis of both **network-domain** and **physical-domain** anomaly detection using a realistic testbed dataset
@@ -133,7 +133,7 @@ After identifying Dueling DQN as the best-performing model, we designed a **dual
 
 ## System Architecture
 
-![Unified DRL Framework](architecture.png)
+![Unified DRL Framework](system_model_simple.png)
 
 ---
 
@@ -158,7 +158,7 @@ After identifying Dueling DQN as the best-performing model, we designed a **dual
 
 ---
 
-### 🔀 Unified Multi-Domain Performance
+###  Unified Multi-Domain Performance
 
 | Setup                      | Rolling Reward | Convergence Time (s) | FPS   |
 |---------------------------|---------------:|---------------------:|------:|
@@ -187,7 +187,7 @@ After identifying Dueling DQN as the best-performing model, we designed a **dual
 
 ---
 
-## 🌍 Why This Matters
+##  Why This Matters
 
 Cyber-Physical Systems power critical infrastructure such as water distribution, energy systems, and industrial control. These systems face increasingly complex attacks spanning both network and physical layers.
 
