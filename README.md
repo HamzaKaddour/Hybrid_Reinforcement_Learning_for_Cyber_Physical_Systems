@@ -66,6 +66,12 @@ Each sample is labeled:
 
 ---
 
+## System Architecture
+
+![Unified DRL Framework](system_model_simple.png)
+
+---
+
 ## Data Preprocessing
 
 To enable unified learning, a preprocessing pipeline was applied to both datasets:
@@ -131,11 +137,7 @@ After identifying Dueling DQN as the best-performing model, we designed a **dual
 
 ---
 
-## System Architecture
 
-![Unified DRL Framework](system_model_simple.png)
-
----
 
 ## Results
 
