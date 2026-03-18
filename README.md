@@ -85,7 +85,10 @@ To enable unified learning, a preprocessing pipeline was applied to both dataset
 - Alternating training between network and physical episodes
 
 ### Exploratory Data Analysis (EDA)
-
+<figure>
+  <img src="network.png" alt="Unified DRL Framework" width="700">
+  <figcaption><b>Figure 1:</b> Network dataset correlation matrix.</figcaption>
+</figure>
 ![Network Features Correlation.](network.png)
 ![Physical Features Correlation.](physical.png)
 
