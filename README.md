@@ -84,6 +84,11 @@ To enable unified learning, a preprocessing pipeline was applied to both dataset
 - Added **4D learnable domain embedding**
 - Alternating training between network and physical episodes
 
+### Exploratory Data Analysis (EDA)
+
+![Network Features Correlation.](assets/network.png)
+![Physical Features Correlation.](assets/physical.png)
+
 ---
 
 ## Proposed Framework
@@ -141,6 +146,8 @@ After identifying Dueling DQN as the best-performing model, we designed a **dual
 | Network only              | 239.09         | 572.30               | 17.47 |
 | Physical only             | 146.29         | 261.98               | 38.17 |
 | Network + Physical (Dual) | 161.99         | 504.94               | 19.80 |
+
+![Results: Convergence Time.](assets/results.png)
 
 ### Interpretation
 
