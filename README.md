@@ -86,16 +86,27 @@ To enable unified learning, a preprocessing pipeline was applied to both dataset
 
 ### Exploratory Data Analysis (EDA)
 
-<figure>
+<!-- <figure>
   <img src="network.png" alt="Network" width="800">
   <figcaption><b>Figure 1:</b> Network dataset correlation matrix.</figcaption>
 </figure>
 
 <figure>
   <img src="physical.png" alt="Physical" width="800">
-  <figcaption><b>Figure 1:</b> Physical dataset correlation matrix.</figcaption>
-</figure>
+  <figcaption><b>Figure 2:</b> Physical dataset correlation matrix.</figcaption>
+</figure> -->
 
+<p align="center">
+  <img src="network.png" width="800">
+  <br>
+  <b>Figure 1:</b> Network dataset correlation matrix.
+</p>
+
+<p align="center">
+  <img src="physical.png" width="800">
+  <br>
+  <b>Figure 2:</b> Physical dataset correlation matrix.
+</p>
 
 ---
 
@@ -155,12 +166,17 @@ After identifying Dueling DQN as the best-performing model, we designed a **dual
 | Physical only             | 146.29         | 261.98               | 38.17 |
 | Network + Physical (Dual) | 161.99         | 504.94               | 19.80 |
 
-![Results: Convergence Time.](results.png)
 
-<figure>
+<!-- <figure>
   <img src="results.png" alt="Results" width="800">
-  <figcaption><b>Figure 1:</b> Convergence time Comparison.</figcaption>
-</figure>
+  <figcaption><b>Figure 3:</b> Convergence time Comparison.</figcaption>
+</figure> -->
+
+<p align="center">
+  <img src="results.png" width="800">
+  <br>
+  <b>Figure 3:</b> Convergence time comparison.
+</p>
 
 ### Interpretation
 
