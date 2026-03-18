@@ -85,12 +85,17 @@ To enable unified learning, a preprocessing pipeline was applied to both dataset
 - Alternating training between network and physical episodes
 
 ### Exploratory Data Analysis (EDA)
+
 <figure>
-  <img src="network.png" alt="Unified DRL Framework" width="700">
+  <img src="network.png" alt="Network" width="800">
   <figcaption><b>Figure 1:</b> Network dataset correlation matrix.</figcaption>
 </figure>
-![Network Features Correlation.](network.png)
-![Physical Features Correlation.](physical.png)
+
+<figure>
+  <img src="physical.png" alt="Physical" width="800">
+  <figcaption><b>Figure 1:</b> Physical dataset correlation matrix.</figcaption>
+</figure>
+
 
 ---
 
@@ -151,6 +156,11 @@ After identifying Dueling DQN as the best-performing model, we designed a **dual
 | Network + Physical (Dual) | 161.99         | 504.94               | 19.80 |
 
 ![Results: Convergence Time.](results.png)
+
+<figure>
+  <img src="results.png" alt="Results" width="800">
+  <figcaption><b>Figure 1:</b> Convergence time Comparison.</figcaption>
+</figure>
 
 ### Interpretation
 
