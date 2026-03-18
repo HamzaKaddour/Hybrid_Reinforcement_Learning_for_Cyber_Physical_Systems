@@ -86,8 +86,8 @@ To enable unified learning, a preprocessing pipeline was applied to both dataset
 
 ### Exploratory Data Analysis (EDA)
 
-![Network Features Correlation.](assets/network.png)
-![Physical Features Correlation.](assets/physical.png)
+![Network Features Correlation.](network.png)
+![Physical Features Correlation.](physical.png)
 
 ---
 
@@ -114,7 +114,7 @@ After identifying Dueling DQN as the best-performing model, we designed a **dual
 
 ## System Architecture
 
-![Unified DRL Framework](assets/architecture.png)
+![Unified DRL Framework](architecture.png)
 
 ---
 
@@ -147,7 +147,7 @@ After identifying Dueling DQN as the best-performing model, we designed a **dual
 | Physical only             | 146.29         | 261.98               | 38.17 |
 | Network + Physical (Dual) | 161.99         | 504.94               | 19.80 |
 
-![Results: Convergence Time.](assets/results.png)
+![Results: Convergence Time.](results.png)
 
 ### Interpretation
 
