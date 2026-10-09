@@ -1,5 +1,7 @@
 # Multi-Domain Deep Reinforcement Learning for Cyber-Physical Systems Security on the WDT Testbed Dataset
 
+> **Research companion repository:** This repository currently focuses on the methodology, quantitative results, figures, and publication/project context. The full experimental training source code is not included in this public repository.
+
 <a href="#"><img src="https://img.shields.io/badge/-Cyber--Physical%20Systems-2F4F4F?&style=for-the-badge" /></a>
 <a href="#"><img src="https://img.shields.io/badge/-Deep%20Reinforcement%20Learning-6A0DAD?&style=for-the-badge" /></a>
 <a href="#"><img src="https://img.shields.io/badge/-Dueling%20DQN-FF6F00?&style=for-the-badge" /></a>
